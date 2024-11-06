@@ -7,5 +7,6 @@ int main(void){
     foo();
     goo();
     printf("hello main \n");
+    printf("PLTR\n");
     return 0;
 }
