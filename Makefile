@@ -21,5 +21,5 @@ $(OBJ_DIR)/func2.o: $(SRC_DIR)/func2.c $(HEADERS)
 	gcc -c $< -o $@ -I$(INC_DIR)
 
 clean:
-	rm $(BIN_DIR)/myapp $(OBJ_DIR)/*.o
+	rm -f $(BIN_DIR)/myapp $(OBJ_DIR)/*.o
 
